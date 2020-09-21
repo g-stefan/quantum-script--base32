@@ -17,5 +17,5 @@ cmdX(){
 	fi
 }
 
-cmdX xyo-cc --mode=$ACTION @util/quantum-script-extension-base32.static.compile.info
-cmdX xyo-cc --mode=$ACTION @util/quantum-script-extension-base32.dynamic.compile.info
+cmdX xyo-cc --mode=$ACTION @util/quantum-script-extension-base32.static.compile
+cmdX xyo-cc --mode=$ACTION @util/quantum-script-extension-base32.dynamic.compile
