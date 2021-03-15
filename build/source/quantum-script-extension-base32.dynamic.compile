@@ -1,6 +1,6 @@
 --dll qse-base32
 --project-base=quantum-script-extension-base32
---source-is-separate
+--build-include
 --dll-no-version
 --use-project=quantum-script
 --use-project=qse-buffer
