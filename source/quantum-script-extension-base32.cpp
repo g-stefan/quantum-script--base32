@@ -14,7 +14,7 @@
 #include "quantum-script-extension-base32-license.hpp"
 #include "quantum-script-extension-base32.hpp"
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32_NO_VERSION
-#include "quantum-script-extension-base32-version.hpp"
+#	include "quantum-script-extension-base32-version.hpp"
 #endif
 
 #include "quantum-script-variablestring.hpp"
@@ -43,7 +43,7 @@ namespace Quantum {
 					printf("- base32-decode\n");
 #endif
 					String result;
-					if(XYO::Base32::decode((arguments->index(0))->toString(), result)) {
+					if (XYO::Base32::decode((arguments->index(0))->toString(), result)) {
 						return VariableString::newVariable(result);
 					};
 					return Context::getValueUndefined();
@@ -54,7 +54,7 @@ namespace Quantum {
 					printf("- base32-decode-to-buffer\n");
 #endif
 					String result;
-					if(XYO::Base32::decode((arguments->index(0))->toString(), result)) {
+					if (XYO::Base32::decode((arguments->index(0))->toString(), result)) {
 						return Extension::Buffer::VariableBuffer::newVariableFromString(result);
 					};
 					return Context::getValueUndefined();
@@ -94,4 +94,3 @@ extern "C" QUANTUM_SCRIPT_EXTENSION_BASE32_EXPORT void quantumScriptExtension(Qu
 	Quantum::Script::Extension::Base32::initExecutive(executive, extensionId);
 };
 #endif
-

@@ -11,23 +11,23 @@
 #define QUANTUM_SCRIPT_EXTENSION_BASE32_HPP
 
 #ifndef QUANTUM_SCRIPT_HPP
-#include "quantum-script.hpp"
+#	include "quantum-script.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32__EXPORT_HPP
-#include "quantum-script-extension-base32--export.hpp"
+#	include "quantum-script-extension-base32--export.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32_COPYRIGHT_HPP
-#include "quantum-script-extension-base32-copyright.hpp"
+#	include "quantum-script-extension-base32-copyright.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32_LICENSE_HPP
-#include "quantum-script-extension-base32-license.hpp"
+#	include "quantum-script-extension-base32-license.hpp"
 #endif
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32_VERSION_HPP
-#include "quantum-script-extension-base32-version.hpp"
+#	include "quantum-script-extension-base32-version.hpp"
 #endif
 
 namespace Quantum {
@@ -46,4 +46,3 @@ namespace Quantum {
 };
 
 #endif
-

@@ -12,6 +12,5 @@
 #include "quantum-script-extension-base32-license.cpp"
 
 #ifndef QUANTUM_SCRIPT_EXTENSION_BASE32_NO_VERSION
-#include "quantum-script-extension-base32-version.cpp"
+#	include "quantum-script-extension-base32-version.cpp"
 #endif
-
