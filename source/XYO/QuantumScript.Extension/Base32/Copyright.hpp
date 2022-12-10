@@ -16,7 +16,6 @@ namespace XYO::QuantumScript::Extension::Base32::Copyright {
 	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *publisher();
 	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *company();
 	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *contact();
-	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *fullCopyright();
 };
 
 #endif
