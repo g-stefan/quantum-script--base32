@@ -13,8 +13,8 @@
 
 namespace XYO::QuantumScript::Extension::Base32::License {
 
-	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *license();
-	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT const char *shortLicense();
+	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT std::string license();
+	XYO_QUANTUMSCRIPT_EXTENSION_BASE32_EXPORT std::string shortLicense();
 
 };
 

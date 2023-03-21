@@ -47,7 +47,7 @@ namespace XYO::QuantumScript::Extension::Base32 {
 
 	void initExecutive(Executive *executive, void *extensionId) {
 		String info = "Base32\r\n";
-		info << License::shortLicense();
+		info << License::shortLicense().c_str();
 
 		executive->setExtensionName(extensionId, "Base32");
 		executive->setExtensionInfo(extensionId, info);
