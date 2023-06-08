@@ -23,7 +23,6 @@
 					"quantum-script--base32"
 				]
 			}
-		],
-		"hasGithub" : true
+		]
 	}
 }
